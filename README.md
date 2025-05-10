@@ -1,4 +1,4 @@
-# Burp Suite BChecks for Pentesting
+# Burp Suite BChecks for Penetration Testing
 
 ## Installation Instructions:
 1. Open Burp Suite
