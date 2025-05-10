@@ -21,7 +21,7 @@
 - `.outerHTML`
 - `.insertAdjacentHTML`
 - `<iframe srcdoc>`
-- `eval(`
+- `eval()`
 - `setTimeout`
 - `setInterval`
 - `DOMParser.parseFromString`
