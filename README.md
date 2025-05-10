@@ -5,8 +5,8 @@
 2. CLick on `Extensions`
 3. Click on `Bchecks`
 4. Click on `+ New`
-5. Choose Blank
-6. Past in the BCheck Code Below
+5. Choose `Blank`
+6. Paste in the BCheck Code Below
 
 ---
 
