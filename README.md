@@ -38,7 +38,7 @@ metadata:
     tags: "passive"
 
 given response then
-    if {latest.response} matches "(?i)document\.write\(|(?i)document\.writeln\(|(?i)document\.domain|(?i)\.innerHTML|(?i)\.outerHTML|(?i)\.insertAdjacentHTML|(?i)<iframe\s+srcdoc|(?i)eval\(|(?i)setTimeout\(|(?i)setInterval\(|(?i)DOMParser\.parseFromString|(?i)\.onevent\(" then
+    if {latest.response} matches "(?i)document\.write\(|(?i)document\.writeln\(|(?i)document\.domain\(|(?i)\.innerHTML\(|(?i)\.outerHTML\(|(?i)\.insertAdjacentHTML\(|(?i)<iframe\s+srcdoc|(?i)eval\(|(?i)setTimeout\(|(?i)setInterval\(|(?i)DOMParser\.parseFromString\(|(?i)\.onevent\(" then
         report issue:
             severity: high
             confidence: firm
