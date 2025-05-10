@@ -7,6 +7,7 @@
 4. Click on `+ New`
 5. Choose `Blank`
 6. Paste in the BCheck Code Below
+7. Save
 
 ---
 
