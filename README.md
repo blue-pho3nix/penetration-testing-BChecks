@@ -39,12 +39,13 @@ metadata:
     tags: "passive"
 
 given response then
-    if {latest.response} matches "(?i)document\.write\(|(?i)document\.writeln\(|(?i)document\.domain|(?i)\.innerHTML|(?i)\.outerHTML|(?i)\.insertAdjacentHTML|(?i)<iframe\s+srcdoc|(?i)eval\(|(?i)setTimeout\(|(?i)setInterval\(|(?i)DOMParser\.parseFromString|(?i)\.onevent" then
+    if {latest.response} matches "(?i)document\.write\(|document\.writeln\(|document\.domain|\.innerHTML|\.outerHTML|\.insertAdjacentHTML|<iframe\s+srcdoc|eval\(|setTimeout\(|setInterval\(|DOMParser\.parseFromString|\.on(?:click|load|mouseover|error|change|submit|focus|blur|keydown|keyup|keypress|mousedown|mouseup|mouseenter|mouseleave|mousemove|mouseout|reset|resize|scroll|select|unload|abort|beforeunload|hashchange|input|invalid|search|wheel|animationstart|animationend|animationiteration|transitionend|copy|cut|paste|dblclick|drag|dragend|dragenter|dragleave|dragover|dragstart|drop|contextmenu)\s*(=|\()" then
         report issue:
             severity: high
             confidence: firm
             detail: "Potential DOM XSS sink detected in the response."
     end if
+
 ```
 
 #### References:
