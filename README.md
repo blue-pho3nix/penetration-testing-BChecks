@@ -15,6 +15,7 @@
 ![image](https://github.com/user-attachments/assets/58a20659-7da5-43db-b922-e1eee0d2bd1b)
 
 #### Currently Finds:
+- `location.hash`
 - `document.write`
 - `document.writeln`
 - `document.domain`
