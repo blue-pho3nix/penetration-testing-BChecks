@@ -4,10 +4,22 @@
 1. Open Burp Suite
 2. CLick on `Extensions`
 3. Click on `Bchecks`
+
+##### COPY/PASTE
 4. Click on `+ New`
 5. Choose `Blank`
 6. Paste in the BCheck Code Below
 7. Save
+
+##### OR
+
+##### IMPORT
+4. Get the repo
+```
+git clone https://github.com/blue-pho3nix/penetration-testing-bchecks
+```
+5. Import .bcheck file(s)
+
 
 ---
 
