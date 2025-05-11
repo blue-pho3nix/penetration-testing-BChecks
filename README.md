@@ -27,7 +27,6 @@
 - `setInterval`
 - `DOMParser.parseFromString`
 - `.onevent`
-- `new Function`
 
 #### BCheck Code:
 ```
