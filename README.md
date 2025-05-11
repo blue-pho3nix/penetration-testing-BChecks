@@ -32,7 +32,7 @@
 #### BCheck Code:
 ```
 metadata:
-    language: v1-beta
+    language: v2-beta
     name: "Potential DOM XSS Sinks"
     author: "Jackie Friedberg"
     description: "Identifies potential DOM XSS sinks in responses."
