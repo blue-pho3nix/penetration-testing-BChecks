@@ -5,7 +5,7 @@
 2. CLick on `Extensions`
 3. Click on `Bchecks`
 
-##### COPY/PASTE
+##### Copy/Paste
 4. Click on `+ New`
 5. Choose `Blank`
 6. Paste in the BCheck Code Below
@@ -13,7 +13,7 @@
 
 ##### OR
 
-##### IMPORT
+##### Import
 4. Get the repo
 ```
 git clone https://github.com/blue-pho3nix/penetration-testing-bchecks
