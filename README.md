@@ -18,7 +18,7 @@
 ```
 git clone https://github.com/blue-pho3nix/penetration-testing-bchecks
 ```
-5. Import .bcheck file(s)
+5. Import .bcheck file
 
 
 ---
