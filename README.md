@@ -52,7 +52,7 @@ metadata:
 
 given response
 then
-    if {latest.response} matches "(?i)document.write\(|document.writeln\(|document.domain|\.innerHTML|\.outerHTML|\.insertAdjacentHTML|<iframe\s+srcdoc|eval\(|setTimeout\(|setInterval\(|DOMParser\.parseFromString|\.on(?:click|load|mouseover|error|change|submit|focus|blur|keydown|keyup|keypress|mousedown|mouseup|mouseenter|mouseleave|mousemove|mouseout|reset|resize|scroll|select|unload|abort|beforeunload|hashchange|input|invalid|search|wheel|animationstart|animationend|animationiteration|transitionend|copy|cut|paste|dblclick|drag|dragend|dragenter|dragleave|dragover|dragstart|drop|contextmenu)\s*(=|\(|setAttribute\s*\(\s*['\"]\s*(on[a-z]+)\s*['\"]\s*,\s*['\"]([^'\"]*)['\"]\s*\))"
+    if {latest.response} matches "(?i)document\.write\(|document\.writeln\(|document\.domain|\.innerHTML|\.outerHTML|\.insertAdjacentHTML|<iframe\s+srcdoc|eval\(|setTimeout\(|setInterval\(|DOMParser\.parseFromString|\.on(?:click|load|mouseover|error|change|submit|focus|blur|keydown|keyup|keypress|mousedown|mouseup|mouseenter|mouseleave|mousemove|mouseout|reset|resize|scroll|select|unload|abort|beforeunload|hashchange|input|invalid|search|wheel|animationstart|animationend|animationiteration|transitionend|copy|cut|paste|dblclick|drag|dragend|dragenter|dragleave|dragover|dragstart|drop|contextmenu)\s*(=|\(|setAttribute\s*\(\s*['\"]\s*(on[a-z]+)\s*['\"]\s*,\s*['\"]([^'\"]*)['\"]\s*\))"
     then
         report issue:
             severity: high
