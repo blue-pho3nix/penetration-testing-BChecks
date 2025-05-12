@@ -48,7 +48,7 @@ metadata:
     name: "Potential DOM XSS Sinks"
     author: "Jackie Friedberg"
     description: "Identifies potential DOM XSS sinks in responses."
-    tags: "passive"
+    tags: "passive", "xss"
 
 given response
 then
